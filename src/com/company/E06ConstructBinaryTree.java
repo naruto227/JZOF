@@ -12,7 +12,14 @@ public class E06ConstructBinaryTree {
         E06ConstructBinaryTree test = new E06ConstructBinaryTree();
         int[] preOrder = {1, 2, 4, 7, 3, 5, 6, 8};
         int[] inOrder = {4, 7, 2, 1, 5, 3, 8, 6};
+        System.out.println("前序遍历结果为：");
         printPreOrder(Construct(preOrder, inOrder, preOrder.length));
+        System.out.println("中序遍历结果为：");
+
+        printInOrder(Construct(preOrder, inOrder, preOrder.length));
+        System.out.println("后序遍历结果为：");
+
+        printAfterOrder(Construct(preOrder, inOrder, preOrder.length));
     }
 
     /**
@@ -89,7 +96,8 @@ public class E06ConstructBinaryTree {
     private static class InvalidPutException extends Exception {
         private static final long serialVersionUID = 1L;
     }
-//前序遍历方式
+
+    //  前序遍历方式
     public static void printPreOrder(BinaryTreeNode root) {
         if (root == null) {
             return;
@@ -105,17 +113,34 @@ public class E06ConstructBinaryTree {
             printPreOrder(root.rightNode);
         }
     }
-//后序遍历方式
-    public static void printAfterOrder(BinaryTreeNode root) {
-        if(root == null){
+
+    //  中序遍历方式
+    public static void printInOrder(BinaryTreeNode root) {
+        if (root == null) {
             return;
-        }else if(root.leftNode != null){
-            printAfterOrder(root.leftNode);
-        }else if(root.rightNode != null){
-            printAfterOrder(root.rightNode);
-        }else {
-            System.out.println(root.value);
+        } else if (root.leftNode != null) {
+            printInOrder(root.leftNode);
         }
+
+        System.out.println(root.value);
+
+        if(root.rightNode != null){
+            printInOrder(root.rightNode);
+        }
+    }
+
+    //  后序遍历方式
+    public static void printAfterOrder(BinaryTreeNode root) {
+        if (root == null) {
+            return;
+        } else if (root.leftNode != null) {
+            printAfterOrder(root.leftNode);
+        }
+        if (root.rightNode != null) {
+            printAfterOrder(root.rightNode);
+        }
+        System.out.println(root.value);
+
     }
 
 }
