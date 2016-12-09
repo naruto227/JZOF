@@ -8,10 +8,9 @@ import java.util.Stack;
  */
 public class 从尾到头打印链表 {
     public static void main(String[] args) {
-        ListNode head = new ListNode(12);
+        ListNode head = new ListNode(0);
         ListNode mid = head;
-        for (int i = 0; i < 20; i++) {
-
+        for (int i = 1; i < 20; i++) {
             ListNode listNode = new ListNode(i);
             mid.next=listNode;
             mid=listNode;
