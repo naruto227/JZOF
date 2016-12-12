@@ -9,7 +9,7 @@ public class Solution {
         if(pre == null || in == null || length <= 0){
             return null;
         }
-        int rootValue = pre[0], rootIndex;
+        int rootValue = pre[0], rootIndex = 0;
         int[] left_pre = new int[10];
         int[] left_in = new int[10];
         int[] right_pre = new int[10];
