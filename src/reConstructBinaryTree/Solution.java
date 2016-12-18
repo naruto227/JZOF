@@ -28,7 +28,7 @@ public class Solution {
 
         TreeNode root = new TreeNode(pre[startPre]);
 
-        for (int i = startPre; i < endPre; i++) {
+        for (int i = startIn; i <= endIn; i++) {
             if (in[i] == pre[startPre]) {   // in[i]: i表示in数组下标为i的元素
                 root.left = reConstructBinaryTree(pre, startPre + 1, startPre + i - startIn, in, startIn, i - 1);
                 root.right = reConstructBinaryTree(pre, startPre + i - startIn + 1, endPre, in, i + 1, endIn);
