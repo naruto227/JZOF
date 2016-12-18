@@ -4,38 +4,37 @@ package reConstructBinaryTree;
  * Created by hzq on 16-12-9.
  */
 public class Solution {
-    public TreeNode reConstructBinaryTree(int [] pre,int [] in) {
+    /*int [] pre;
+    int [] in;
+
+    public Solution(int[] pre, int[] in) {
+        this.pre = pre;
+        this.in = in;
+    }*/
+
+    public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
         int length = pre.length;
-        if(pre == null || in == null || length <= 0){
+        if (pre == null || in == null || length <= 0) {
             return null;
         }
-        int rootValue = pre[0], rootIndex = 0;
-        int[] left_pre = new int[10];
-        int[] left_in = new int[10];
-        int[] right_pre = new int[10];
-        int[] right_in = new int[10];
-        TreeNode root = new TreeNode(rootValue);
-        for (int i = 0; i < length; i++) {
-            if(rootValue == in[i]){
-                rootIndex = i;
-                break;
+
+        return reConstructBinaryTree(pre, 0, pre.length - 1, in, 0, in.length - 1);
+    }
+
+    private TreeNode reConstructBinaryTree(int[] pre, int startPre, int endPre, int[] in, int startIn, int endIn) {
+        if (startPre > endPre || startIn > endIn) {
+            return null;
+        }
+
+        TreeNode root = new TreeNode(pre[startPre]);
+
+        for (int i = startPre; i < endPre; i++) {
+            if (in[i] == pre[startPre]) {   // in[i]: i表示in数组下标为i的元素
+                root.left = reConstructBinaryTree(pre, startPre + 1, startPre + i - startIn, in, startIn, i - 1);
+                root.right = reConstructBinaryTree(pre, startPre + i - startIn + 1, endPre, in, i + 1, endIn);
             }
         }
-
-        for (int i = 0; i < rootIndex; i++) {
-            left_pre[i] = pre[i+1];
-            right_pre[i] = in[i];
-        }
-
-        for(int i = rootIndex + 1; i < length; i++){
-            right_pre[i] = pre[i];
-            right_in[i] = in[i];
-        }
-
-        root.left = reConstructBinaryTree(left_pre, left_in);
-        root.right = reConstructBinaryTree(right_pre, right_in);
-
         return root;
-
     }
+
 }
