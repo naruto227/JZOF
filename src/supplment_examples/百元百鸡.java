@@ -9,7 +9,9 @@ import java.util.Date;
 public class 百元百鸡 {
     public static void main(String[] args) {
         Date date = new Date();
-        bianli(date.getTime());
+        long time = date.getTime();
+//        bianli(time);
+        solution(time);
     }
 
     public static void bianli(long time) {
@@ -22,6 +24,25 @@ public class 百元百鸡 {
                         count++;
                         System.out.println("母鸡数量：" + i + " 公鸡数量：" + j + " 小鸡数量:" + k);
                     }
+                }
+            }
+        }
+        System.out.println("总共有" + count + "种方案");
+        Date date1 = new Date();
+        long time1 = date1.getTime();
+        System.out.println("程序运行时间：" + (time1 - time) + "ms");
+    }
+
+    /*第二种思路：由于母鸡每只的金额是3元，所以100元最多购买的母鸡数量是100/3=33只，同理100元最多购买的公鸡数量是25只，
+    而按照100元100只的要求，小鸡的数量应该为100减去公鸡和母鸡的数量，这样代码就可以简化为如下的结构：*/
+    public static void solution(long time) {
+        int count = 0;
+        for (int i = 0; i <= 33; i++) {
+            for (int j = 25 - i; j >= 0; j--) {
+                int k = 100 - i - j;
+                if (i * 3 + j * 4 + k * 0.5 == 100) {
+                    count++;
+                    System.out.println("母鸡数量：" + i + " 公鸡数量：" + j + " 小鸡数量:" + k);
                 }
             }
         }
