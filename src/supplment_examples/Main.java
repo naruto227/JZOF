@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-//        System.out.println(14 % 1);
+//        System.out.println(143 / 10);
         最大公约数 max_yue = new 最大公约数();
         最小公倍数 min_bei = new 最小公倍数();
         Scanner scanner = new Scanner(System.in);
