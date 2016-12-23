@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4abddd1-c685-4698-b902-a464ffd9c168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/supplment_examples/最小公倍数.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JZOF/supplment_examples/最大公约数.class" afterPath="$PROJECT_DIR$/out/production/JZOF/supplment_examples/最大公约数.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/supplment_examples/Main.java" afterPath="$PROJECT_DIR$/src/supplment_examples/Main.java" />
     </list>
@@ -57,21 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/supplment_examples/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="最小公倍数.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="最小公倍数.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/supplment_examples/最小公倍数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -166,8 +164,8 @@
         <option value="$PROJECT_DIR$/src/reConstructBinaryTree/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/两个栈实现一个队列.java" />
         <option value="$PROJECT_DIR$/src/supplment_examples/最大公约数.java" />
-        <option value="$PROJECT_DIR$/src/supplment_examples/Main.java" />
         <option value="$PROJECT_DIR$/src/supplment_examples/最小公倍数.java" />
+        <option value="$PROJECT_DIR$/src/supplment_examples/Main.java" />
       </list>
     </option>
   </component>
@@ -846,7 +844,7 @@
       <workItem from="1482119453809" duration="597000" />
       <workItem from="1482124050466" duration="419000" />
       <workItem from="1482138053890" duration="2086000" />
-      <workItem from="1482458301040" duration="4000000" />
+      <workItem from="1482458301040" duration="4740000" />
     </task>
     <task id="LOCAL-00001" summary="倒序链表，重构二叉树">
       <created>1481253023805</created>
@@ -911,11 +909,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482461703412</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="遍历_最小公倍数">
+      <created>1482462323427</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1482462323427</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42638000" />
+    <option name="totallyTimeSpent" value="43378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1173" extended-state="6" />
@@ -976,7 +981,8 @@
     <MESSAGE value="print" />
     <MESSAGE value="make it" />
     <MESSAGE value="最大公约数" />
-    <option name="LAST_COMMIT_MESSAGE" value="最大公约数" />
+    <MESSAGE value="遍历_最小公倍数" />
+    <option name="LAST_COMMIT_MESSAGE" value="遍历_最小公倍数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1479,18 +1485,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/supplment_examples/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/supplment_examples/最小公倍数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="52" lean-forward="false" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="90">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/supplment_examples/最小公倍数.java">
+    <entry file="file://$PROJECT_DIR$/src/supplment_examples/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
           <folding />
         </state>
       </provider>
