@@ -8,6 +8,7 @@ import java.util.Scanner;
  */
 public class 组合问题 {
     public static void main(String[] args) {
+//        System.out.println(3/2);//1
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int a = scanner.nextInt();
