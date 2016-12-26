@@ -3,7 +3,7 @@ package supplment_examples;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
+/**fa
  * Created by hzq on 16-12-26.
  */
 public class 求n以内所有质数的和 {
