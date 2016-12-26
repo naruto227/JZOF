@@ -11,14 +11,16 @@ public class 质数判断 {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int in = scanner.nextInt();
-            if (solution2(in)) {
+            if (new Judge().solution2(in)) {
                 System.out.println(in + "是质数");
             } else {
                 System.out.println(in + "不是质数");
             }
         }
     }
+}
 
+class Judge{
     //遍历2～n-1的所有元素
     public static boolean solution1(int num) {
         boolean flag = true;
@@ -35,7 +37,7 @@ public class 质数判断 {
     public static boolean solution2(int num) {
         boolean flag = true;
         int temp = (int) Math.sqrt(num);
-        for (int i = 2; i < temp; i++) {
+        for (int i = 2; i <= temp; i++) {
             if (num % i == 0) {
                 flag = false;
                 break;
