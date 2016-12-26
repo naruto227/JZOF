@@ -9,7 +9,6 @@ import java.util.Scanner;
 一个农场有头母牛，现在母牛才一岁，要到四岁才能生小牛，四岁之后，每年生一头小牛。
 假设每次生的都是母牛，并且也遵守4年才生育并生母牛的原则。且所生的牛都不会死
 问20年之后共有多少头牛
-ok
 */
 public class 母牛问题 {
     public static void main(String[] args) {

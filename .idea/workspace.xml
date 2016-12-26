@@ -78,8 +78,8 @@
       <file leaf-file-name="母牛问题.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/supplment_examples/母牛问题.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="180">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -899,7 +899,7 @@
       <workItem from="1482591026085" duration="8393000" />
       <workItem from="1482715394340" duration="5059000" />
       <workItem from="1482737373509" duration="81000" />
-      <workItem from="1482737697050" duration="3328000" />
+      <workItem from="1482737697050" duration="3371000" />
     </task>
     <task id="LOCAL-00001" summary="倒序链表，重构二叉树">
       <created>1481253023805</created>
@@ -1097,11 +1097,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482740954639</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="母牛生小牛问题">
+      <created>1482741127484</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1482741127484</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79394000" />
+    <option name="totallyTimeSpent" value="79437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1173" extended-state="6" />
@@ -1614,8 +1621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/supplment_examples/母牛问题.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="180">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding />
         </state>
       </provider>
