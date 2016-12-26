@@ -11,7 +11,7 @@ public class 质数判断 {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int in = scanner.nextInt();
-            if (new Judge().solution2(in)) {
+            if (new Judge().prime2(in)) {
                 System.out.println(in + "是质数");
             } else {
                 System.out.println(in + "不是质数");
@@ -22,7 +22,7 @@ public class 质数判断 {
 
 class Judge{
     //遍历2～n-1的所有元素
-    public static boolean solution1(int num) {
+    public static boolean prime1(int num) {
         boolean flag = true;
         for (int i = 2; i < num; i++) {
             if (num % i == 0) {
@@ -34,7 +34,7 @@ class Judge{
     }
 
     //遍历2～Math.sqrt(num)
-    public static boolean solution2(int num) {
+    public static boolean prime2(int num) {
         boolean flag = true;
         int temp = (int) Math.sqrt(num);
         for (int i = 2; i <= temp; i++) {
