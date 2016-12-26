@@ -11,9 +11,11 @@ public class 计算阶乘 {
         while (scanner.hasNextInt()) {
             int a = scanner.nextInt();
             System.out.println(a + "的阶乘：" + factorial(a));
+            System.out.println(factorial1(a));
         }
     }
 
+    //循环实现
     public static int factorial(int num) {
         int temp = num;
         int sum = 1;
@@ -22,5 +24,14 @@ public class 计算阶乘 {
             temp--;
         }
         return sum;
+    }
+
+    //递归实现
+    public static int factorial1(int num) {
+        if (num < 3) {
+            return num;
+        } else {
+            return num * factorial1(num - 1);
+        }
     }
 }
