@@ -25,9 +25,9 @@ public class 角谷猜想问题 {
         int count = 0;
         while (temp != 1) {
             count++;
-            if (temp % 2 == 0) {
+            if (temp % 2 == 0) {    //若为偶数除以2
                 temp /= 2;
-            } else {
+            } else {    //若为奇数则乘3加1
                 temp = temp * 3 + 1;
             }
             if (count > 1000) {
