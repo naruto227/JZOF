@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4abddd1-c685-4698-b902-a464ffd9c168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/supplment_examples/猴子吃桃.java" />
+    <list default="true" id="e4abddd1-c685-4698-b902-a464ffd9c168" name="Default" comment="猴子摘桃问题">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/supplment_examples/计算阶乘.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JZOF.iws" />
@@ -65,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="猴子吃桃.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="猴子吃桃.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/supplment_examples/猴子吃桃.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="计算阶乘.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/supplment_examples/计算阶乘.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -90,16 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
               <caret line="19" column="42" lean-forward="false" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="打印星.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/supplment_examples/打印星.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -179,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/supplment_examples/百元百鸡.java" />
         <option value="$PROJECT_DIR$/src/supplment_examples/组合问题.java" />
         <option value="$PROJECT_DIR$/src/supplment_examples/猴子吃桃.java" />
+        <option value="$PROJECT_DIR$/src/supplment_examples/计算阶乘.java" />
       </list>
     </option>
   </component>
@@ -321,7 +322,7 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.猴子吃桃">
+  <component name="RunManager" selected="Application.计算阶乘">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -330,26 +331,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="supplment_examples.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JZOF" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="质数判断" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="supplment_examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="supplment_examples.质数判断" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -410,6 +391,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="supplment_examples.猴子吃桃" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JZOF" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="计算阶乘" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="supplment_examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="supplment_examples.计算阶乘" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -805,18 +806,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.质数判断" />
-      <item index="2" class="java.lang.String" itemvalue="Application.百元百鸡" />
-      <item index="3" class="java.lang.String" itemvalue="Application.组合问题" />
-      <item index="4" class="java.lang.String" itemvalue="Application.猴子吃桃" />
+      <item index="1" class="java.lang.String" itemvalue="Application.百元百鸡" />
+      <item index="2" class="java.lang.String" itemvalue="Application.组合问题" />
+      <item index="3" class="java.lang.String" itemvalue="Application.猴子吃桃" />
+      <item index="4" class="java.lang.String" itemvalue="Application.计算阶乘" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.猴子吃桃" />
-        <item index="1" class="java.lang.String" itemvalue="Application.组合问题" />
-        <item index="2" class="java.lang.String" itemvalue="Application.百元百鸡" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.质数判断" />
+        <item index="0" class="java.lang.String" itemvalue="Application.计算阶乘" />
+        <item index="1" class="java.lang.String" itemvalue="Application.猴子吃桃" />
+        <item index="2" class="java.lang.String" itemvalue="Application.组合问题" />
+        <item index="3" class="java.lang.String" itemvalue="Application.百元百鸡" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -861,7 +862,7 @@
       <workItem from="1482458301040" duration="6046000" />
       <workItem from="1482475330245" duration="17849000" />
       <workItem from="1482591026085" duration="8393000" />
-      <workItem from="1482715394340" duration="2045000" />
+      <workItem from="1482715394340" duration="3092000" />
     </task>
     <task id="LOCAL-00001" summary="倒序链表，重构二叉树">
       <created>1481253023805</created>
@@ -1024,11 +1025,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482637954555</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="猴子摘桃问题">
+      <created>1482720823511</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1482720823511</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72971000" />
+    <option name="totallyTimeSpent" value="74018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="579" y="27" width="1399" height="1173" extended-state="0" />
@@ -1051,6 +1059,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18383989" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32495165" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1062,7 +1071,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32495165" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1099,7 +1107,8 @@
     <MESSAGE value="打印星" />
     <MESSAGE value="质素判断" />
     <MESSAGE value="组合问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="组合问题" />
+    <MESSAGE value="猴子摘桃问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="猴子摘桃问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1118,14 +1127,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/二维数组查询.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/替换空格.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1503,8 +1504,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/supplment_examples/猴子吃桃.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/supplment_examples/计算阶乘.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding />
         </state>
       </provider>
