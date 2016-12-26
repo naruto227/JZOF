@@ -12,6 +12,7 @@ public class 斐波那契 {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
+            new digitalLaw().solution(n);
             for (int i = 0; i < n; i++) {
                 System.out.print(fibonacci(i) + " ");
             }
@@ -23,6 +24,7 @@ public class 斐波那契 {
             for (int i = 0; i < n; i++) {
                 System.out.print(fibonacci2(i) + " ");
             }
+            System.out.println();
         }
     }
 
@@ -37,7 +39,7 @@ public class 斐波那契 {
 
     //指针
     public static int fibonacci1(int n) {
-        if (n < 3) {
+        if (n < 2) {
             return 1;
         }
         int f1 = 1, f2 = 1;
@@ -50,7 +52,7 @@ public class 斐波那契 {
     }
 
     public static int fibonacci2(int n) {
-        if (n < 3) {
+        if (n < 2) {
             return 1;
         }
         int f1 = 1, f2 = 1, res = 0;
@@ -61,5 +63,19 @@ public class 斐波那契 {
             f1 = res;
         }
         return res;
+    }
+}
+
+/*输出30个如下规律的数列： 1 3 6 10 15 21……    n*(n+1)/2*/
+class digitalLaw {
+    public void solution(int num) {
+        if (num < 1) {
+            return;
+        } else {
+            for (int i = 1; i <= num; i++) {
+                System.out.print(i * (i + 1) / 2 + " ");
+            }
+        }
+        System.out.println();
     }
 }
