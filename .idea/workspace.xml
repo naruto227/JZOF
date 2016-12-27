@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4abddd1-c685-4698-b902-a464ffd9c168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array_list/歌手打分.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array_list/歌手打分.java" afterPath="$PROJECT_DIR$/src/array_list/歌手打分.java" />
     </list>
     <ignored path="JZOF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,8 +90,8 @@
       <file leaf-file-name="歌手打分.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/array_list/歌手打分.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="17" column="116" lean-forward="false" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
               <folding />
             </state>
           </provider>
@@ -230,10 +230,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="552" />
+    <option name="x" value="606" />
     <option name="y" value="27" />
-    <option name="width" value="1581" />
-    <option name="height" value="1143" />
+    <option name="width" value="1497" />
+    <option name="height" value="1173" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -907,7 +907,7 @@
       <workItem from="1482737697050" duration="17409000" />
       <workItem from="1482762903431" duration="35000" />
       <workItem from="1482803128485" duration="1784000" />
-      <workItem from="1482805122385" duration="1744000" />
+      <workItem from="1482805122385" duration="1935000" />
     </task>
     <task id="LOCAL-00001" summary="倒序链表，重构二叉树">
       <created>1481253023805</created>
@@ -1203,15 +1203,22 @@
       <option name="project" value="LOCAL" />
       <updated>1482762922528</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="歌手打分">
+      <created>1482806884521</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1482806884521</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97038000" />
+    <option name="totallyTimeSpent" value="97229000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="552" y="27" width="1581" height="1143" extended-state="0" />
-    <editor active="true" />
+    <frame x="606" y="27" width="1497" height="1173" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1222,13 +1229,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40390244" sideWeight="0.50403225" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4003984" sideWeight="0.49596775" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38878143" sideWeight="0.49596775" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26494023" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36653772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25081646" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26537663" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1277,7 +1284,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="solution" />
     <MESSAGE value="print" />
     <MESSAGE value="make it" />
     <MESSAGE value="最大公约数" />
@@ -1302,7 +1308,8 @@
     <MESSAGE value="质数判断" />
     <MESSAGE value="prime" />
     <MESSAGE value="求n以内所有质数的和" />
-    <option name="LAST_COMMIT_MESSAGE" value="求n以内所有质数的和" />
+    <MESSAGE value="歌手打分" />
+    <option name="LAST_COMMIT_MESSAGE" value="歌手打分" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1733,8 +1740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array_list/歌手打分.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="17" column="116" lean-forward="false" selection-start-line="17" selection-start-column="116" selection-end-line="17" selection-end-column="116" />
           <folding />
         </state>
       </provider>

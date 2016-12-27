@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * Created by hzq on 16-12-27.
  */
+//可以扩展到歌手最终排名情形
 /* 要求：在歌唱比赛中，共有10位评委进行打分，在计算歌手得分时，去掉一个最高分，去掉一个最低分，
 然后剩余的8位评委的分数进行平均，就是该选手的最终得分。如果已知每个评委的评分，求该选手的得分。*/
 public class 歌手打分 {
@@ -14,7 +15,7 @@ public class 歌手打分 {
             int n = scanner.nextInt();
             int[] ints = initialization(n);
             Array array = new Array();
-            System.out.println("该歌手所得分为：" + (array.sum(ints) - array.max(ints) - array.min(ints)) / (n - 2));
+            System.out.println("该歌手所得分为：" + (double)(array.sum(ints) - array.max(ints) - array.min(ints)) / (n - 2.0));
         }
     }
 
