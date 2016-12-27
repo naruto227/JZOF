@@ -39,4 +39,5 @@ class TenToN {
         System.out.println(Integer.toString(num, n));//系统方法,任意十进制数转化为n进制数
 
     }
+
 }

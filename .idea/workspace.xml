@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4abddd1-c685-4698-b902-a464ffd9c168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/进制转换/十进制转其它进制.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/进制转换/NtoM.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/进制转换/十进制转其它进制.java" afterPath="$PROJECT_DIR$/src/进制转换/十进制转其它进制.java" />
     </list>
     <ignored path="JZOF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,18 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="求n以内所有质数的和.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/supplment_examples/求n以内所有质数的和.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding>
-                <element signature="e#531#540#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="输出数列.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array_list/输出数列.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,11 +66,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="十进制转其它进制.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="十进制转其它进制.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/进制转换/十进制转其它进制.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="448">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NtoM.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/进制转换/NtoM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,8 +89,8 @@
       <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
         <entry file="jar:///usr/local/java/jdk1.8.0_91/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="126" column="29" lean-forward="true" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+            <state relative-caret-position="-70">
+              <caret line="531" column="22" lean-forward="false" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -196,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/array_list/数组元素是否重复.java" />
         <option value="$PROJECT_DIR$/src/array_list/数组是否对称.java" />
         <option value="$PROJECT_DIR$/src/进制转换/十进制转其它进制.java" />
+        <option value="$PROJECT_DIR$/src/进制转换/NtoM.java" />
       </list>
     </option>
   </component>
@@ -299,6 +299,24 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="进制转换" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JZOF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JZOF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -341,27 +359,7 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.十进制转其它进制">
-    <configuration default="false" name="求n以内所有质数的和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="supplment_examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="supplment_examples.求n以内所有质数的和" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JZOF" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.NtoM">
     <configuration default="false" name="输出数列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -430,6 +428,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="进制转换.十进制转其它进制" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JZOF" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NtoM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="进制转换.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="进制转换.NtoM" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -824,19 +842,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.求n以内所有质数的和" />
-      <item index="1" class="java.lang.String" itemvalue="Application.输出数列" />
-      <item index="2" class="java.lang.String" itemvalue="Application.歌手打分" />
-      <item index="3" class="java.lang.String" itemvalue="Application.数组元素是否重复" />
-      <item index="4" class="java.lang.String" itemvalue="Application.十进制转其它进制" />
+      <item index="0" class="java.lang.String" itemvalue="Application.输出数列" />
+      <item index="1" class="java.lang.String" itemvalue="Application.歌手打分" />
+      <item index="2" class="java.lang.String" itemvalue="Application.数组元素是否重复" />
+      <item index="3" class="java.lang.String" itemvalue="Application.十进制转其它进制" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NtoM" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.十进制转其它进制" />
-        <item index="1" class="java.lang.String" itemvalue="Application.数组元素是否重复" />
-        <item index="2" class="java.lang.String" itemvalue="Application.歌手打分" />
-        <item index="3" class="java.lang.String" itemvalue="Application.输出数列" />
-        <item index="4" class="java.lang.String" itemvalue="Application.求n以内所有质数的和" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NtoM" />
+        <item index="1" class="java.lang.String" itemvalue="Application.十进制转其它进制" />
+        <item index="2" class="java.lang.String" itemvalue="Application.数组元素是否重复" />
+        <item index="3" class="java.lang.String" itemvalue="Application.歌手打分" />
+        <item index="4" class="java.lang.String" itemvalue="Application.输出数列" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -886,7 +904,7 @@
       <workItem from="1482737697050" duration="17409000" />
       <workItem from="1482762903431" duration="35000" />
       <workItem from="1482803128485" duration="1784000" />
-      <workItem from="1482805122385" duration="10930000" />
+      <workItem from="1482805122385" duration="11665000" />
     </task>
     <task id="LOCAL-00001" summary="倒序链表，重构二叉树">
       <created>1481253023805</created>
@@ -1224,11 +1242,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482810473156</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="十进制转其它进制">
+      <created>1482828107588</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1482828107588</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106224000" />
+    <option name="totallyTimeSpent" value="106959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1173" extended-state="6" />
@@ -1298,7 +1323,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="遍历_最小公倍数" />
     <MESSAGE value="100￥100chicken" />
     <MESSAGE value="a problem" />
     <MESSAGE value="喝汽水" />
@@ -1323,7 +1347,8 @@
     <MESSAGE value="歌手排名" />
     <MESSAGE value="判断重复元素" />
     <MESSAGE value="数组是否对称" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组是否对称" />
+    <MESSAGE value="十进制转其它进制" />
+    <option name="LAST_COMMIT_MESSAGE" value="十进制转其它进制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1342,13 +1367,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/reConstructBinaryTree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/local/java/jdk1.8.0_91/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38520">
@@ -1754,18 +1772,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/java/jdk1.8.0_91/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/src/进制转换/十进制转其它进制.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="126" column="29" lean-forward="true" selection-start-line="126" selection-start-column="29" selection-end-line="126" selection-end-column="29" />
+        <state relative-caret-position="448">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/进制转换/十进制转其它进制.java">
+    <entry file="jar:///usr/local/java/jdk1.8.0_91/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="-70">
+          <caret line="531" column="22" lean-forward="false" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/进制转换/NtoM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
