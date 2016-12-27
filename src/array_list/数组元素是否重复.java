@@ -18,6 +18,12 @@ public class 数组元素是否重复 {
             }else {
                 System.out.println("没有重复元素");
             }
+
+            if(new 数组是否对称().arr_symmetry(ints)){
+                System.out.println("数组有对称");
+            }else {
+                System.out.println("数组没有对称");
+            }
         }
     }
 }
@@ -25,8 +31,9 @@ public class 数组元素是否重复 {
 class Repeat {
     public boolean arr_repeat(int[] arr) {
         boolean flag = false;
-        int len = arr.length - 1;
-        for (int i = 0; i < len - 1; i++) {
+        int len = arr.length;
+        int len1 = len - 1;
+        for (int i = 0; i < len1; i++) {
             /*if(flag){
                 break;
             }*/
