@@ -14,7 +14,7 @@ public class 歌手打分 {
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
             Array array = new Array();
-            int[] ints = array.initialization(n);
+            int[] ints = array.initialization(n,80,100);
             System.out.println("该歌手所得分为：" + (double) (array.sum(ints) - array.max(ints) - array.min(ints)) / (n - 2.0));
             System.out.println(array.sum_max_min(ints)[1]);
         }

@@ -7,9 +7,9 @@ package array_list;
 public class Array {
 
     //要生成在[min,max]之间的随机整数
-    public int[] initialization(int n) {
-        int max = 100;
-        int min = 80;
+    public int[] initialization(int n, int min, int max) {
+//        int max = 100;
+//        int min = 80;
         Array array = new Array();
         int[] ints = new int[n];
         for (int i = 0; i < ints.length; i++) {
