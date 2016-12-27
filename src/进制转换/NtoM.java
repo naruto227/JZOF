@@ -11,8 +11,7 @@ public class NtoM {
         System.out.println("请输入输入的进制：");
         while (scanner.hasNext()) {
             int n = scanner.nextInt();
-            System.out.println("请输入输入的" + n +
-                    "进制的一个数：");
+            System.out.println("请输入输入的" + n + "进制的一个数：");
             String input = scanner.next();
             System.out.println("请输入输出的进制：");
             int m = scanner.nextInt();
