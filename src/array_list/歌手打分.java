@@ -13,15 +13,20 @@ public class 歌手打分 {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
-            int[] ints = initialization(n);
             Array array = new Array();
+            int[] ints = array.initialization(n);
             System.out.println("该歌手所得分为：" + (double) (array.sum(ints) - array.max(ints) - array.min(ints)) / (n - 2.0));
             System.out.println(array.sum_max_min(ints)[1]);
         }
     }
 
+}
+
+//优化：将三个函数合并成一个函数
+class Array {
+
     //要生成在[min,max]之间的随机整数
-    public static int[] initialization(int n) {
+    public int[] initialization(int n) {
         int max = 100;
         int min = 80;
         Array array = new Array();
@@ -33,10 +38,7 @@ public class 歌手打分 {
         System.out.println();
         return ints;
     }
-}
 
-//优化：将三个函数合并成一个函数
-class Array {
     //计算出总和最大最小
     public int[] sum_max_min(int[] arr) {
         int sum = arr[0], max = sum, min = max;
