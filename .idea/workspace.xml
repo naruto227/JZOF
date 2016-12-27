@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4abddd1-c685-4698-b902-a464ffd9c168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/array_list/数组元素是否重复.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/歌手排名/Singer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array_list/歌手打分.java" afterPath="$PROJECT_DIR$/src/array_list/歌手打分.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array_list/数组元素是否重复.java" afterPath="$PROJECT_DIR$/src/array_list/数组元素是否重复.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/歌手排名/Singer.java" afterPath="$PROJECT_DIR$/src/歌手排名/Singer.java" />
     </list>
     <ignored path="JZOF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="猴子吃桃.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/supplment_examples/猴子吃桃.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="斐波那契.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/supplment_examples/斐波那契.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="歌手打分.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="歌手打分.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array_list/歌手打分.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -92,19 +81,32 @@
       <file leaf-file-name="Singer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/歌手排名/Singer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="数组元素是否重复.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="数组元素是否重复.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/array_list/数组元素是否重复.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/java/jdk1.8.0_91/src.zip!/java/util/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="561" column="11" lean-forward="false" selection-start-line="561" selection-start-column="11" selection-end-line="561" selection-end-column="11" />
+              <folding>
+                <element signature="e#21679#21680#0" expanded="true" />
+                <element signature="e#21750#21751#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -217,8 +219,8 @@
         <option value="$PROJECT_DIR$/src/supplment_examples/质数判断.java" />
         <option value="$PROJECT_DIR$/src/supplment_examples/求n以内所有质数的和.java" />
         <option value="$PROJECT_DIR$/src/array_list/输出数列.java" />
-        <option value="$PROJECT_DIR$/src/歌手排名/Singer.java" />
         <option value="$PROJECT_DIR$/src/array_list/歌手打分.java" />
+        <option value="$PROJECT_DIR$/src/歌手排名/Singer.java" />
         <option value="$PROJECT_DIR$/src/array_list/数组元素是否重复.java" />
       </list>
     </option>
@@ -234,7 +236,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="423" />
+    <option name="x" value="575" />
     <option name="y" value="27" />
     <option name="width" value="1497" />
     <option name="height" value="1173" />
@@ -375,7 +377,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="歌手打分.java" />
+              <option name="myItemId" value="数组元素是否重复.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,27 +404,7 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.歌手打分">
-    <configuration default="false" name="个位和百位对调" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="supplment_examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="supplment_examples.个位和百位对调" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="JZOF" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.数组元素是否重复">
     <configuration default="false" name="质数判断" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -491,6 +473,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="array_list.歌手打分" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JZOF" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="数组元素是否重复" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="array_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="array_list.数组元素是否重复" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -885,19 +887,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.个位和百位对调" />
-      <item index="1" class="java.lang.String" itemvalue="Application.质数判断" />
-      <item index="2" class="java.lang.String" itemvalue="Application.求n以内所有质数的和" />
-      <item index="3" class="java.lang.String" itemvalue="Application.输出数列" />
-      <item index="4" class="java.lang.String" itemvalue="Application.歌手打分" />
+      <item index="0" class="java.lang.String" itemvalue="Application.质数判断" />
+      <item index="1" class="java.lang.String" itemvalue="Application.求n以内所有质数的和" />
+      <item index="2" class="java.lang.String" itemvalue="Application.输出数列" />
+      <item index="3" class="java.lang.String" itemvalue="Application.歌手打分" />
+      <item index="4" class="java.lang.String" itemvalue="Application.数组元素是否重复" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.歌手打分" />
-        <item index="1" class="java.lang.String" itemvalue="Application.输出数列" />
-        <item index="2" class="java.lang.String" itemvalue="Application.求n以内所有质数的和" />
-        <item index="3" class="java.lang.String" itemvalue="Application.质数判断" />
-        <item index="4" class="java.lang.String" itemvalue="Application.个位和百位对调" />
+        <item index="0" class="java.lang.String" itemvalue="Application.数组元素是否重复" />
+        <item index="1" class="java.lang.String" itemvalue="Application.歌手打分" />
+        <item index="2" class="java.lang.String" itemvalue="Application.输出数列" />
+        <item index="3" class="java.lang.String" itemvalue="Application.求n以内所有质数的和" />
+        <item index="4" class="java.lang.String" itemvalue="Application.质数判断" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -947,7 +949,7 @@
       <workItem from="1482737697050" duration="17409000" />
       <workItem from="1482762903431" duration="35000" />
       <workItem from="1482803128485" duration="1784000" />
-      <workItem from="1482805122385" duration="3258000" />
+      <workItem from="1482805122385" duration="4292000" />
     </task>
     <task id="LOCAL-00001" summary="倒序链表，重构二叉树">
       <created>1481253023805</created>
@@ -1264,14 +1266,21 @@
       <option name="project" value="LOCAL" />
       <updated>1482807693378</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="歌手排名">
+      <created>1482808405736</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1482808405736</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98552000" />
+    <option name="totallyTimeSpent" value="99586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="423" y="27" width="1497" height="1173" extended-state="0" />
+    <frame x="575" y="27" width="1497" height="1173" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1283,13 +1292,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40390244" sideWeight="0.50403225" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38878143" sideWeight="0.49596775" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2640232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38878143" sideWeight="0.49596775" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2640232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36653772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23289564" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2211472" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1338,7 +1347,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="print" />
     <MESSAGE value="make it" />
     <MESSAGE value="最大公约数" />
     <MESSAGE value="遍历_最小公倍数" />
@@ -1363,7 +1371,8 @@
     <MESSAGE value="prime" />
     <MESSAGE value="求n以内所有质数的和" />
     <MESSAGE value="歌手打分" />
-    <option name="LAST_COMMIT_MESSAGE" value="歌手打分" />
+    <MESSAGE value="歌手排名" />
+    <option name="LAST_COMMIT_MESSAGE" value="歌手排名" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1382,13 +1391,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/替换空格.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/从尾到头打印链表.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1778,19 +1780,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/歌手排名/Singer.java">
+    <entry file="jar:///usr/local/java/jdk1.8.0_91/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/array_list/数组元素是否重复.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="561" column="11" lean-forward="false" selection-start-line="561" selection-start-column="11" selection-end-line="561" selection-end-column="11" />
+          <folding>
+            <element signature="e#21679#21680#0" expanded="true" />
+            <element signature="e#21750#21751#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1798,6 +1795,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="25" column="6" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/歌手排名/Singer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array_list/数组元素是否重复.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
       </provider>
