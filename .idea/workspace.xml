@@ -88,8 +88,8 @@
       <file leaf-file-name="数字统计.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/supplment_examples/数字统计.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="198">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -925,14 +925,7 @@
       <workItem from="1482762903431" duration="35000" />
       <workItem from="1482803128485" duration="1784000" />
       <workItem from="1482805122385" duration="12325000" />
-      <workItem from="1482844691992" duration="2596000" />
-    </task>
-    <task id="LOCAL-00004" summary="new int[]">
-      <created>1481553814109</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1481553814109</updated>
+      <workItem from="1482844691992" duration="2661000" />
     </task>
     <task id="LOCAL-00005" summary="initialize">
       <created>1481553920879</created>
@@ -1270,11 +1263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482847478408</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="数字统计">
+      <created>1482847867398</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1482847867398</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110215000" />
+    <option name="totallyTimeSpent" value="110280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="809" y="27" width="1101" height="1171" extended-state="0" />
@@ -1376,7 +1376,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/supplment_examples/数字统计.java</url>
-          <line>32</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="56" />
         </line-breakpoint>
@@ -1808,8 +1808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/supplment_examples/数字统计.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="198">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding />
         </state>
       </provider>
