@@ -23,8 +23,8 @@ public class 数组编码 {
         }
     }
 
-    public static void createB(int[] arr){
-        int[] B = new int[arr.length];
+    public static void createaArrB(int[] arr){
+        int[] arr_b = new int[arr.length];
     }
 
 
