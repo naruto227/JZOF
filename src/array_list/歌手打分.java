@@ -15,7 +15,8 @@ public class 歌手打分 {
             int n = scanner.nextInt();
             int[] ints = initialization(n);
             Array array = new Array();
-            System.out.println("该歌手所得分为：" + (double)(array.sum(ints) - array.max(ints) - array.min(ints)) / (n - 2.0));
+            System.out.println("该歌手所得分为：" + (double) (array.sum(ints) - array.max(ints) - array.min(ints)) / (n - 2.0));
+            System.out.println(array.sum_max_min(ints)[1]);
         }
     }
 
@@ -34,7 +35,27 @@ public class 歌手打分 {
     }
 }
 
+//优化：将三个函数合并成一个函数
 class Array {
+    //计算出总和最大最小
+    public int[] sum_max_min(int[] arr) {
+        int sum = arr[0], max = sum, min = max;
+        int[] ints = new int[3];
+        for (int i = 1; i < arr.length; i++) {
+            sum += arr[i];
+            if(max < arr[i]){
+                max = arr[i];
+            }
+            if(min > arr[i]){
+                min = arr[i];
+            }
+        }
+        ints[0] = sum;
+        ints[1] = max;
+        ints[2] = min;
+        return ints;
+    }
+
     public int sum(int[] arr) {
         int sum = 0;
         for (int i = 0; i < arr.length; i++) {
