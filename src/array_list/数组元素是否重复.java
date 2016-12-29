@@ -11,7 +11,7 @@ public class 数组元素是否重复 {
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
             Array array = new Array();
-            int[] ints = array.initialization(n);
+            int[] ints = array.initialization(n,0,100);
             Repeat repeat = new Repeat();
             if (repeat.arr_repeat(ints)) {
                 System.out.println("有重复元素");

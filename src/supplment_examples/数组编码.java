@@ -23,10 +23,12 @@ public class 数组编码 {
             int max = scanner.nextInt();
             Array array = new Array();
             int[] ints = array.initialization(n, min, max);
+            print_arr(ints);
+            print_arr(createaArrB(ints));
         }
     }
 
-    public static void createaArrB(int[] arr) {
+    public static int[] createaArrB(int[] arr) {
         int len = arr.length;
         int[] arr_b = new int[len];
         arr_b[0] = arr[0];
@@ -39,8 +41,14 @@ public class 数组编码 {
             }
             arr_b[i] = count;
         }
-
+        return arr_b;
     }
 
-
+    public static void print_arr(int[] arr){
+        int len = arr.length;
+        for (int i = 0; i < len; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
 }
