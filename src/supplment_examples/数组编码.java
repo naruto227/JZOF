@@ -29,6 +29,16 @@ public class 数组编码 {
     public static void createaArrB(int[] arr) {
         int len = arr.length;
         int[] arr_b = new int[len];
+        arr_b[0] = arr[0];
+        for (int i = 1; i < len; i++) {
+            int count = 0;
+            for (int j = 0; j < i; j++) {
+                if(arr[j] < arr[i]){
+                    count++;
+                }
+            }
+            arr_b[i] = count;
+        }
 
     }
 
