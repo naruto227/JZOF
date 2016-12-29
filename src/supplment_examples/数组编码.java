@@ -29,10 +29,10 @@ public class 数组编码 {
     }
 
     public static int[] createaArrB(int[] arr) {
-        int len = arr.length;
-        int[] arr_b = new int[len];
+//        int len = arr.length;
+        int[] arr_b = new int[arr.length];
         arr_b[0] = arr[0];
-        for (int i = 1; i < len; i++) {
+        for (int i = 1; i < arr.length; i++) {
             int count = 0;
             for (int j = 0; j < i; j++) {
                 if(arr[j] < arr[i]){
@@ -45,8 +45,8 @@ public class 数组编码 {
     }
 
     public static void print_arr(int[] arr){
-        int len = arr.length;
-        for (int i = 0; i < len; i++) {
+//        int len = arr.length;
+        for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();

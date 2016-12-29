@@ -4,6 +4,7 @@ package array_list;
  * Created by hzq on 16-12-27.
  */
 //优化：将三个函数合并成一个函数
+//    数组的length是array的属性，在数组创建时就有
 public class Array {
 
     //要生成在[min,max]之间的随机整数
