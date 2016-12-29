@@ -23,7 +23,9 @@ public class 数组编码 {
             int max = scanner.nextInt();
             Array array = new Array();
             int[] ints = array.initialization(n, min, max);
-//            print_arr(ints);
+            System.out.printf("数组A：");
+            print_arr(ints);
+            System.out.printf("数组B：");
             print_arr(createaArrB(ints));
         }
     }

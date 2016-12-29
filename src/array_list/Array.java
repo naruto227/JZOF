@@ -11,13 +11,21 @@ public class Array {
     public int[] initialization(int n, int min, int max) {
 //        int max = 100;
 //        int min = 80;
-        Array array = new Array();
+//        Array array = new Array();
         int[] ints = new int[n];
         for (int i = 0; i < ints.length; i++) {
             ints[i] = (int) (min + Math.random() * (max - min + 1));//生成n个[80,100]的数
-            System.out.print(ints[i] + " ");
+//            System.out.print(ints[i] + " ");
         }
-        System.out.println();
+//        System.out.println();
+        return ints;
+    }
+//    生成[0,100]长度为n的数组
+    public int[] initialization(int n){
+        int[] ints = new int[n];
+        for (int i = 0; i < n; i++) {
+            ints[i] = (int) (Math.random()*100);
+        }
         return ints;
     }
 
