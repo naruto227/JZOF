@@ -27,7 +27,9 @@ public class 数组编码 {
     }
 
     public static void createaArrB(int[] arr) {
-        int[] arr_b = new int[arr.length];
+        int len = arr.length;
+        int[] arr_b = new int[len];
+
     }
 
 
