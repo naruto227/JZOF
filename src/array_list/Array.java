@@ -24,7 +24,7 @@ public class Array {
     public int[] initialization(int n){
         int[] ints = new int[n];
         for (int i = 0; i < n; i++) {
-            ints[i] = (int) (Math.random()*100);
+            ints[i] = (int) (Math.random()*90) + 10;
         }
         return ints;
     }

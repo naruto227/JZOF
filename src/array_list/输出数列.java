@@ -27,7 +27,7 @@ public class 输出数列 {
 
     public static void print_arr(int[] ints){
         for (int i = 0; i < ints.length; i++) {
-            System.out.print(ints[i] + "\t");
+            System.out.print(ints[i] + " ");
         }
         System.out.println();
     }
