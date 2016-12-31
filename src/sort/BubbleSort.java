@@ -18,7 +18,7 @@ public class BubbleSort {
             int[] ints = array.initialization(n);
             System.out.printf("原始序列为：");
             print_arr(ints);
-            sort3(ints, n);
+            sort4(ints, n);
         }
     }
 
@@ -51,7 +51,8 @@ public class BubbleSort {
     /*设置一标志性变量pos,用于记录每趟排序中最后一次进行交换的位置。由于pos位置之后的记录均已交换到位,故在进行下一趟排序时只要扫描到pos位置即可*/
     public static void sort3(int[] arr, int n) {
         int cnt = 0;//计步器
-        for (int i = n - 1; i > 0; ) {
+        int i = n - 1;
+        while (i > 0) {
             int pos = 0;
             for (int j = 0; j < i; j++) {
                 if (arr[j] > arr[j + 1]) {
@@ -61,6 +62,23 @@ public class BubbleSort {
             }
             i = pos;//从后向前推,当pos最后为0时,即退出循环
             System.out.printf("第" + (++cnt) + "步排序后的序列为：");
+            print_arr(arr);
+        }
+    }
+
+/*利用在每趟排序中进行正向和反向两遍冒泡的方法一次可以得到两个最终值(最大者和最小者) , 从而使排序趟数几乎减少了一半。*/
+    public static void sort4(int[] arr, int n) {
+        int len = n / 2;
+        for (int i = 0; i < len; i++) {
+            for (int j = i + 1; j < n - i; j++) {
+                if (arr[i] > arr[j]) {
+                    swap(arr, i, j);
+                }
+                if (arr[j] > arr[n - 1 - i]) {
+                    swap(arr, n - 1 - i, j);
+                }
+            }
+            System.out.printf("第" + (i + 1) + "步排序后的序列为：");
             print_arr(arr);
         }
     }
