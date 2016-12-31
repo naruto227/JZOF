@@ -111,8 +111,8 @@
       <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="66">
+              <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#sort1#0;class#BubbleSort#0" expanded="false" />
@@ -888,14 +888,7 @@
       <workItem from="1482855353834" duration="484000" />
       <workItem from="1483025199325" duration="6762000" />
       <workItem from="1483114518543" duration="1426000" />
-      <workItem from="1483150747412" duration="3461000" />
-    </task>
-    <task id="LOCAL-00016" summary="9*9">
-      <created>1482545365264</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1482545365264</updated>
+      <workItem from="1483150747412" duration="3570000" />
     </task>
     <task id="LOCAL-00017" summary="9*9">
       <created>1482545959206</created>
@@ -1233,11 +1226,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483152491957</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="bubble sort">
+      <created>1483154213835</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1483154213835</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124528000" />
+    <option name="totallyTimeSpent" value="124637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1647,8 +1647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="66">
+          <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#sort1#0;class#BubbleSort#0" expanded="false" />

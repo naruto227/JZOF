@@ -66,11 +66,11 @@ public class BubbleSort {
         }
     }
 
-/*利用在每趟排序中进行正向和反向两遍冒泡的方法一次可以得到两个最终值(最大者和最小者) , 从而使排序趟数几乎减少了一半。*/
+    /*利用在每趟排序中进行正向和反向两遍冒泡的方法一次可以得到两个最终值(最大者和最小者) , 从而使排序趟数几乎减少了一半。*/
     public static void sort4(int[] arr, int n) {
         int len = n / 2;
         for (int i = 0; i < len; i++) {
-            for (int j = i + 1; j < n - i; j++) {
+            for (int j = i + 1; j < n - i; j++) {//每次比较的数减少头和尾
                 if (arr[i] > arr[j]) {
                     swap(arr, i, j);
                 }
@@ -81,6 +81,28 @@ public class BubbleSort {
             System.out.printf("第" + (i + 1) + "步排序后的序列为：");
             print_arr(arr);
         }
+/*
+        int low = 0;
+        int high = n - 1; //设置变量的初始值
+        int tmp, j;
+        while (low < high) {
+            for (j = low; j < high; ++j) //正向冒泡,找到最大者
+                if (r[j] > r[j + 1]) {
+                    tmp = r[j];
+                    r[j] = r[j + 1];
+                    r[j + 1] = tmp;
+                }
+            --high;                 //修改high值, 前移一位
+            for (j = high; j > low; --j) //反向冒泡,找到最小者
+                if (r[j] < r[j - 1]) {
+                    tmp = r[j];
+                    r[j] = r[j - 1];
+                    r[j - 1] = tmp;
+                }
+            ++low;                  //修改low值,后移一位
+        }
+*/
+
     }
 
     private static void swap(int[] arr, int i, int j) {
