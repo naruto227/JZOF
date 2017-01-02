@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4abddd1-c685-4698-b902-a464ffd9c168" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/supplment_examples/拉丁方阵.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/supplment_examples/杨辉三角.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/array_list/Multi_arr.java" afterPath="$PROJECT_DIR$/src/array_list/Multi_arr.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/supplment_examples/Main.java" afterPath="$PROJECT_DIR$/src/supplment_examples/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/supplment_examples/拉丁方阵.java" afterPath="$PROJECT_DIR$/src/supplment_examples/拉丁方阵.java" />
     </list>
     <ignored path="JZOF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="拉丁方阵.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="拉丁方阵.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/supplment_examples/拉丁方阵.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            <state relative-caret-position="286">
+              <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="杨辉三角.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/supplment_examples/杨辉三角.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -81,20 +90,6 @@
             <state relative-caret-position="332">
               <caret line="82" column="36" lean-forward="false" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="50" column="49" lean-forward="false" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-              <folding>
-                <element signature="method#sort1#0;class#BubbleSort#0" expanded="false" />
-                <element signature="method#sort2#0;class#BubbleSort#0" expanded="false" />
-                <element signature="method#sort3#0;class#BubbleSort#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -214,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/array_list/Multi_arr.java" />
         <option value="$PROJECT_DIR$/src/supplment_examples/Main.java" />
         <option value="$PROJECT_DIR$/src/supplment_examples/拉丁方阵.java" />
+        <option value="$PROJECT_DIR$/src/supplment_examples/杨辉三角.java" />
       </list>
     </option>
   </component>
@@ -928,14 +924,7 @@
       <workItem from="1483150747412" duration="4184000" />
       <workItem from="1483197048324" duration="298000" />
       <workItem from="1483199222824" duration="2297000" />
-      <workItem from="1483323946675" duration="2006000" />
-    </task>
-    <task id="LOCAL-00021" summary="质素判断">
-      <created>1482635566733</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1482635566733</updated>
+      <workItem from="1483323946675" duration="2785000" />
     </task>
     <task id="LOCAL-00022" summary="组合问题">
       <created>1482637765502</created>
@@ -1273,11 +1262,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483327625001</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="拉丁方阵">
+      <created>1483328853683</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1483328853684</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129852000" />
+    <option name="totallyTimeSpent" value="130631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1356,7 +1352,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="递归" />
     <MESSAGE value="斐波那契数列" />
     <MESSAGE value="1 3 6 10 15 21" />
     <MESSAGE value="new" />
@@ -1381,7 +1376,8 @@
     <MESSAGE value="bubble sort" />
     <MESSAGE value="hannuota" />
     <MESSAGE value="multi arr" />
-    <option name="LAST_COMMIT_MESSAGE" value="multi arr" />
+    <MESSAGE value="拉丁方阵" />
+    <option name="LAST_COMMIT_MESSAGE" value="拉丁方阵" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1401,13 +1397,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/E06ConstructBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="143" column="5" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="143" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reConstructBinaryTree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1719,8 +1708,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/supplment_examples/拉丁方阵.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        <state relative-caret-position="286">
+          <caret line="39" column="45" lean-forward="false" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/supplment_examples/杨辉三角.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding />
         </state>
       </provider>

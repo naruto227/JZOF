@@ -32,15 +32,23 @@ public class 拉丁方阵 {
                 }
             }
         }
-        printMultiArr(n, ints);
+        printMultiArr(ints);
     }
 //    arr.length
-    public static void printMultiArr(int n, int[][] arr) {
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+    public static void printMultiArr(int[][] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
                 System.out.printf(arr[i][j] + "\t");
             }
             System.out.println();
         }
     }
+    /* //输出数组的值
+                   for(int row = 0;row < arr.length;row++){
+                            for(int col = 0;col < arr[row].length;col++){
+                                     System.out.print(arr[row][col]);
+                                     System.out.print(' ');
+                            }
+                            System.out.println();
+                   }*/
 }
