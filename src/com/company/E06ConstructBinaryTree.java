@@ -53,7 +53,7 @@ public class E06ConstructBinaryTree {
     public static BinaryTreeNode ConstructCore(int[] preOrder, int startPreIndex, int endPreIndex, int[] inOrder, int startInIndex, int endInIndex) throws InvalidPutException {
         int rootValue = preOrder[startPreIndex];
         System.out.println("rootValue = " + rootValue);
-        BinaryTreeNode root = new BinaryTreeNode(rootValue);
+        BinaryTreeNode root = new BinaryTreeNode(rootValue);//create root node
 
         //只有一个元素
         if (startPreIndex == endPreIndex) {
