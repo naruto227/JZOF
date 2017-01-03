@@ -7,15 +7,16 @@ import java.util.Scanner;
  */
 public class 杨辉三角 {
     public static void main(String[] args) {
-        拉丁方阵 ld = new 拉丁方阵();
+//        拉丁方阵 ld = new 拉丁方阵();
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
-            ld.printMultiArr(createYHTriangle(n));
+            createYHTriangle(n);
+//            ld.printMultiArr(createYHTriangle(n));
         }
     }
 
-    public static int[][] createYHTriangle(int n) {
+    public static void createYHTriangle(int n) {
         int[][] ints = new int[n][n];
         for (int i = 0; i < n; i++) {
             ints[i][0] = 1;
@@ -26,6 +27,19 @@ public class 杨辉三角 {
                 ints[i][j] = ints[i - 1][j] + ints[i - 1][j - 1];
             }
         }
-        return ints;
+        printYHTri(ints);
+    }
+
+    private static void printYHTri(int[][] arr){
+        int len = arr.length;
+        for (int i = 0; i < len; i++) {
+            for (int j = 0; j < len; j++) {
+                if(arr[i][j] == 0){
+                    break;
+                }
+                System.out.printf(arr[i][j] + "\t");
+            }
+            System.out.println();
+        }
     }
 }
