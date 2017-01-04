@@ -28,7 +28,7 @@ public class 螺旋数组 {
 
     private static void createArr(int n, int m) {
         int[][] ints = new int[n][m];
-        int temp = n * m + 1;
+        int temp = n * m;
         int value = 1;//
         int row = 0, col = 0;
         ints[row][col] = value;
@@ -43,6 +43,7 @@ public class 螺旋数组 {
 //                        continue;
                     } else if (ints[row][col] != 0) {
                         col--;
+                        row++;
                         direction = DOWN;
                     } else {
                         direction = RIGHT;
@@ -55,30 +56,35 @@ public class 螺旋数组 {
                         col--;
                         direction = LEFT;
                     } else if (ints[row][col] != 0) {
-                        row++;
+                        row--;
+                        col--;
                         direction = LEFT;
                     } else {
                         direction = DOWN;
                     }
                     break;
                 case LEFT:
-                    row--;
-                    if (row < 0) {
-                        row++;
+                    col--;
+                    if (col < 0) {
+                        col++;
+                        row--;
                         direction = UP;
                     } else if (ints[row][col] != 0) {
-                        row++;
+                        col++;
+                        row--;
                         direction = UP;
                     } else {
                         direction = LEFT;
                     }
                     break;
                 case UP:
-                    col--;
-                    if (col < 0) {
+                    row--;
+                    if (row < 0) {
+                        row++;
                         col++;
                         direction = RIGHT;
                     } else if (ints[row][col] != 0) {
+                        row++;
                         col++;
                         direction = RIGHT;
                     } else {
