@@ -15,18 +15,19 @@ public class 螺旋数组 {
     private static final int RIGHT = 2;
     private static final int UP = 3;
     private static final int DOWN = 4;
-    private static int direction = RIGHT;   //当前数字的移动方向
+    private static int direction;   //当前数字的移动方向
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
             int m = scanner.nextInt();
+            direction = RIGHT;
             createArr(n, m);
         }
     }
 
-    private static void createArr(int n, int m) {
+    public static void createArr(int n, int m) {
         int[][] ints = new int[n][m];
         int temp = n * m;
         int value = 1;//
