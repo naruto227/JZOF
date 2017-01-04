@@ -8,9 +8,13 @@ import static supplment_examples.拉丁方阵.printMultiArr;
  * Created by hzq on 17-1-4.
  */
 /* 要求：存储和输出nXm的螺旋数组，其中n和m为大于0的整数。
-* */
+* 4*4
+1	2	3	4
+12	13	14	5
+11	16	15	6
+10	9	8	7 */
 public class 螺旋数组 {
-
+//
     private static final int LEFT = 1;
     private static final int RIGHT = 2;
     private static final int UP = 3;
