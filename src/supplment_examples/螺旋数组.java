@@ -144,7 +144,7 @@ public class 螺旋数组 {
                     col++; //移动到后一行
                     if (col >= m) { //超过边界
                         col--; //后退
-                        dire = DOWN;
+                        dire = DOWN;//该边界点上改变方向
                         continue; //跳过该次循环
                     } else if (data[row][col] != 0) {//已赋值
                         col--; //后退
