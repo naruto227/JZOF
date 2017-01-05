@@ -33,7 +33,7 @@ public class 螺旋数组 {
         }
     }
 
-    public static void createArr(int n, int m) {
+    private static void createArr(int n, int m) {
         int[][] ints = new int[n][m];
         int temp = n * m;
         int value = 1;//初始值
