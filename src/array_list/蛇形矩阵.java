@@ -28,13 +28,11 @@ public class 蛇形矩阵 {
         for (int i = 0; i < n - 1; i++) {
             ints[i + 1][0] = ints[i][0] + i + 1;
         }
-
         for (int i = 1; i < n; i++) {//表列
             for (int j = 0; j < n - 1; j++) {//表行
                 ints[j][i] = ints[j + 1][i - 1] + 1;
             }
         }
-
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n - i; j++) {
                 System.out.printf(ints[i][j] + "\t");
@@ -66,8 +64,7 @@ public class 蛇形矩阵 {
             } else {//当k为偶数时，代表每条斜线的最小值在下方
                 data[k][0] = 1 + k * (k + 1) / 2;
                 for (int i = 0; i <= k; i++) {
-                    data[k - i][i] = data[k][0] + i;              //行递减，列递增
-
+                    data[k - i][i] = data[k][0] + i;//行递减，列递增
                 }
             }
         }//上半部分就已经设计好了，接着设计下半部分
