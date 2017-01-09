@@ -1,9 +1,14 @@
 package array_list;
 
+import supplment_examples.计算阶乘;
+
+import java.util.Scanner;
+
 /**
  * Created by hzq on 17-1-9.
  */
 //使用1-9这9个数字填充一个3X3的数组，要求输出所有可能的情况。暂未理解
+//静态方法内部调用非静态的结构,new 一个对象，对象名.方法名调用对应的方法
 public class 填充数组 {
         static void output(int[] num, int length) {
             int i;
@@ -12,7 +17,7 @@ public class 填充数组 {
             System.out.println();
         }
 
-        static void permutCombi(int n) {
+    void permutCombi(int n) {
             int[] num, mark;
             int i, flag;
             num = new int[n + 1];
@@ -43,7 +48,10 @@ public class 填充数组 {
 
         public static void main(String[] args) {
             int n = 3;
-            permutCombi(n);
+            Scanner scanner = new Scanner(System.in);
+            计算阶乘 计算阶乘 = new 计算阶乘();
+            填充数组 填充数组 = new 填充数组();
+            填充数组.permutCombi(n);
         }
     }
 
