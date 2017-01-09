@@ -54,6 +54,7 @@ public class 蛇形矩阵 {
 
         //将蛇形矩阵按照正对角线分为上半部分和下半部分
         //现在先来设计上半部分，并且负责对角线，上半部分可将斜线的顺序记为k,按k的奇偶性进行判断
+        //以斜线为基准打印
         for (int k = 1; k <= (n - 1); k++) {
             if (k % 2 == 1) {//当k为奇数时，代表每条斜线的最小值在上方
                 data[0][k] = 1 + k * (k + 1) / 2;
@@ -110,4 +111,54 @@ public class 蛇形矩阵 {
             System.out.println();
         }//结束显示，结束print方法，进入main方法
     }//结束构造方法
+
+    public static void createSnake(int n) {
+        int[][] data = new int[n][n];
+        data[0][0] = 1;
+        data[n - 1][n - 1] = n * n;
+        //上半部分
+        for (int k = 1; k <= n - 1; k++) {
+            if (k % 2 == 1) {//当k为奇数时，代表每条斜线的最小值在下方
+                data[k][0] = 1 + k * (k + 1) / 2;
+                for (int i = 0; i <= k; i++) {
+                    data[k - i][i] = data[k][0] + i;//行递减，列递增
+                }
+            } else {//当k为偶数时，代表每条斜线的最小值在上方
+                data[0][k] = 1 + k * (k + 1) / 2;
+                for (int i = 1; i <= k; i++) {
+                    data[i][k - i] = data[0][k] + i;//行递增，列递减
+                }
+            }
+        }
+        //下半部分
+        if (n % 2 == 0) {//如果n为偶数
+            for (int k = 1; k <= (n - 2); k++) {
+                if (k % 2 == 1) {//当k为奇数的时候每条斜线的最大值在上方
+                    data[k][n - 1] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
+                    for (int i = 1; i < n - k; i++) {
+                        data[k + i][n - 1 - i] = data[k][n - 1] - i;//行递增，列递减
+                    }
+                } else {//当k为偶数的时候，每条斜线的最大值在下方
+                    data[n - 1][k] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
+                    for (int i = 1; i < n - k; i++) {
+                        data[n - 1 - i][k + i] = data[n - 1][k] - i;//行递减，列递增
+                    }
+                }
+            }
+        } else {//如果n为奇数，那么就是相反的
+            for (int k = 1; k <= (n - 2); k++) {
+                if (k % 2 == 0) {//当k为偶数的时候每条斜线的最大值在上方
+                    data[k][n - 1] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
+                    for (int i = 1; i < n - k; i++) {
+                        data[k + i][n - 1 - i] = data[k][n - 1] - i;//行递增，列递减
+                    }
+                } else {//当k为奇数的时候，每条斜线的最大值在下方
+                    data[n - 1][k] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
+                    for (int i = 1; i < n - k; i++) {
+                        data[n - 1 - i][k + i] = data[n - 1][k] - i;//行递减，列递增
+                    }
+                }
+            }
+        }
+    }
 }
