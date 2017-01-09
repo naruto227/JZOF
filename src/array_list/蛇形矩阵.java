@@ -10,8 +10,10 @@ public class 蛇形矩阵 {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
-//            iterationArr(n);
-            print(n);
+            iterationArr(n);
+            /*createSnake(n);
+            System.out.println("另外一种：转制");
+            print(n);*/
         }
     }
 
@@ -112,6 +114,11 @@ public class 蛇形矩阵 {
         }//结束显示，结束print方法，进入main方法
     }//结束构造方法
 
+    /*
+1	3	4	10
+2	5	9	11
+6	8	12	15
+7	13	14	16*/
     public static void createSnake(int n) {
         int[][] data = new int[n][n];
         data[0][0] = 1;
@@ -133,32 +140,39 @@ public class 蛇形矩阵 {
         //下半部分
         if (n % 2 == 0) {//如果n为偶数
             for (int k = 1; k <= (n - 2); k++) {
-                if (k % 2 == 1) {//当k为奇数的时候每条斜线的最大值在上方
+                if (k % 2 == 1) {//当k为奇数的时候每条斜线的最大值在下方
+                    data[n - 1][k] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
+                    for (int i = 1; i < n - k; i++) {
+                        data[n - 1 - i][k + i] = data[n - 1][k] - i;//列递增，行递减
+                    }
+                } else {//当k为偶数的时候，每条斜线的最大值在上方
                     data[k][n - 1] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
                     for (int i = 1; i < n - k; i++) {
                         data[k + i][n - 1 - i] = data[k][n - 1] - i;//行递增，列递减
-                    }
-                } else {//当k为偶数的时候，每条斜线的最大值在下方
-                    data[n - 1][k] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
-                    for (int i = 1; i < n - k; i++) {
-                        data[n - 1 - i][k + i] = data[n - 1][k] - i;//行递减，列递增
                     }
                 }
             }
         } else {//如果n为奇数，那么就是相反的
             for (int k = 1; k <= (n - 2); k++) {
-                if (k % 2 == 0) {//当k为偶数的时候每条斜线的最大值在上方
-                    data[k][n - 1] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
-                    for (int i = 1; i < n - k; i++) {
-                        data[k + i][n - 1 - i] = data[k][n - 1] - i;//行递增，列递减
-                    }
-                } else {//当k为奇数的时候，每条斜线的最大值在下方
+                if (k % 2 == 0) {//当k为偶数的时候每条斜线的最大值在下方
                     data[n - 1][k] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
                     for (int i = 1; i < n - k; i++) {
                         data[n - 1 - i][k + i] = data[n - 1][k] - i;//行递减，列递增
                     }
+                } else {//当k为奇数的时候，每条斜线的最大值在上方
+                    data[k][n - 1] = data[n - 1][n - 1] - (n - k - 1) * (n - k) / 2;
+                    for (int i = 1; i < n - k; i++) {
+                        data[k + i][n - 1 - i] = data[k][n - 1] - i;//行递增，列递减
+                    }
                 }
             }
+        }
+
+        for (int i = 0; i < data.length; i++) {
+            for (int j = 0; j < data[i].length; j++) {
+                System.out.print(data[i][j] + "\t");
+            }
+            System.out.println();
         }
     }
 }
