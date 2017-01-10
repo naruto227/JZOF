@@ -8,24 +8,42 @@ import java.util.Scanner;
 public class 数字字符转换 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        while (scanner.hasNext()){
+        while (scanner.hasNext()) {
             String next = scanner.next();
-            if (next.length()==1){
+            if (next.length() == 1) {
                 System.out.println(invertInt(next.charAt(0)));//单个字符
+            }else {
+                System.out.println(sumInt(next));
             }
         }
     }
 
     /**
-     * 将对应的数字字符(如’1’、’4’等)转换为对应数字(如1、4)的方法
+     * 将对应的数字字符(如’1’、’4’等)转换为对应数字(如1、4)的方法。如：4a5sd,)*1m3,则为4+5+1+3，结果等于13
      * @param str
      * @return
      */
-    private static int invertInt(char str){
-        if((str >= '0') && (str <= '9')){
+    private static int invertInt(char str) {
+        if ((str >= '0') && (str <= '9')) {
             return str - '0';
-        }else {
+        } else {
             return -1;
         }
+    }
+
+    /**
+     * 输入一行字符，将其中的数字字符对应的整数值加起来，并输出结果
+     * @param str
+     * @return
+     */
+    private static int sumInt(String str) {
+        int sum = 0;
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if ((c >= '0') && (c <= '9')) {
+                sum += (c - '0');
+            }
+        }
+        return sum;
     }
 }
