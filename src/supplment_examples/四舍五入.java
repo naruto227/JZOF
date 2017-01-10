@@ -12,6 +12,7 @@ public class 四舍五入 {
             float aFloat = scanner.nextFloat();
 //            Math.round()
             System.out.println(solution(aFloat));
+            printEven();
         }
     }
 
@@ -22,6 +23,17 @@ public class 四舍五入 {
             return num + 1;
         } else {
             return num;
+        }
+    }
+
+    private static void printEven() {
+        int count = 0;
+        for (int i = 2; i < 101; i += 2) {
+            System.out.printf("\t" + i);
+            count++;
+            if (count % 10 == 0) {
+                System.out.println();
+            }
         }
     }
 }
