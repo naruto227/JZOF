@@ -15,7 +15,7 @@ public class 全排列 {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
-            if(n<1){
+            if (n < 1) {
                 //异常代码
             }
             int[] ints = new int[n];
@@ -93,10 +93,10 @@ public class 全排列 {
                     break;
                 }
             }
-/**
- * 到最大一种情况时,i=-1,返回
- */
-            if(i==-1){
+            /**
+             * 到最大一种情况时,i=-1,返回
+             */
+            if (i == -1) {
                 return;
             }
             for (j = length - 1; j > i; j--) {
@@ -115,5 +115,10 @@ public class 全排列 {
         for (; i < j; ++i, --j) {
             swap(arr, i, j);
         }
+    }
+
+//    去掉重复的全排列的递归实现
+    public static void allArranged2(){
+
     }
 }
