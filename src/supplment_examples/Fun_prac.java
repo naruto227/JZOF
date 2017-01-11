@@ -9,7 +9,7 @@ import static array_list.输出数列.print_arr;
 /**
  * Created by hzq on 17-1-10.
  */
-public class fun_prac {
+public class Fun_prac {
     public static void main(String[] args) {
 //        Math.abs(-10);
         Array array = new Array();
