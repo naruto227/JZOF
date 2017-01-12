@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e4abddd1-c685-4698-b902-a464ffd9c168" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/supplment_examples/Ymh.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/supplment_examples/不同五位数乘积为10位数.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/supplment_examples/全排列.java" afterPath="$PROJECT_DIR$/src/supplment_examples/全排列.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/supplment_examples/不同五位数乘积为10位数.java" afterPath="$PROJECT_DIR$/src/supplment_examples/不同五位数乘积为10位数.java" />
     </list>
     <ignored path="JZOF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -607,21 +606,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ymh.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ymh.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/supplment_examples/Ymh.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
+            <state relative-caret-position="36">
               <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="不同五位数乘积为10位数.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="不同五位数乘积为10位数.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/supplment_examples/不同五位数乘积为10位数.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+            <state relative-caret-position="418">
+              <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -1442,14 +1441,7 @@
       <workItem from="1484098354103" duration="11163000" />
       <workItem from="1484140440324" duration="700000" />
       <workItem from="1484184786548" duration="2149000" />
-      <workItem from="1484187137763" duration="2668000" />
-    </task>
-    <task id="LOCAL-00050" summary="任意进制的转换">
-      <created>1482828849598</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1482828849599</updated>
+      <workItem from="1484187137763" duration="3436000" />
     </task>
     <task id="LOCAL-00051" summary="任意进制的转换">
       <created>1482829239047</created>
@@ -1787,11 +1779,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484186863548</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="不同五位数乘积为10位数">
+      <created>1484190805115</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1484190805116</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200907000" />
+    <option name="totallyTimeSpent" value="201675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1870,7 +1869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="判断重复元素" />
     <MESSAGE value="数组是否对称" />
     <MESSAGE value="十进制转其它进制" />
     <MESSAGE value="任意进制的转换" />
@@ -1895,7 +1893,8 @@
     <MESSAGE value="四舍五入" />
     <MESSAGE value="数字字符转换" />
     <MESSAGE value="全排列" />
-    <option name="LAST_COMMIT_MESSAGE" value="全排列" />
+    <MESSAGE value="不同五位数乘积为10位数" />
+    <option name="LAST_COMMIT_MESSAGE" value="不同五位数乘积为10位数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1925,11 +1924,12 @@
           <option name="timeStamp" value="121" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="122" />
+      <option name="time" value="124" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="list.size()" language="JAVA" />
+        <watch expression="(multi + &quot; &quot;).length()" />
       </configuration>
     </watches-manager>
   </component>
@@ -2834,18 +2834,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/supplment_examples/不同五位数乘积为10位数.java">
+    <entry file="file://$PROJECT_DIR$/src/supplment_examples/Ymh.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+        <state relative-caret-position="36">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/supplment_examples/Ymh.java">
+    <entry file="file://$PROJECT_DIR$/src/supplment_examples/不同五位数乘积为10位数.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="418">
+          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
           <folding />
         </state>
       </provider>

@@ -6,12 +6,13 @@ import java.util.Scanner;
  * Created by hzq on 17-1-12.
  */
 public class 不同五位数乘积为10位数 {
-    private final static int LEN = 10;
+    private static int LEN;
     private static int count = 0;
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
+            LEN = n;
             if (n < 1) {
                 //异常代码
             }
@@ -26,6 +27,9 @@ public class 不同五位数乘积为10位数 {
     protected static void permu(int[] arr, int begin, int end) {
         if (begin == end) {
             if (arr[0] != 0) {
+                if(count == 10){
+                    return;
+                }
                 solution(arr);
             }
         } else {
@@ -55,9 +59,10 @@ public class 不同五位数乘积为10位数 {
         int left = Integer.parseInt(sb1.toString());
         int right = Integer.parseInt(sb2.toString());
         int multi = left * right;
-        if ((multi + " ").length() == LEN && count < 11) {
+        if ((multi + "").length() == LEN && count < 10) {
             count++;
             System.out.println(left + " * " + right + " = " + multi);
         }
+
     }
 }
