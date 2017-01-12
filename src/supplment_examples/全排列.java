@@ -23,8 +23,8 @@ public class 全排列 {
                 ints[i] = i + 1;
             }*/
             int[] ints = new int[]{1, 2, 2, 3, 3};
-            allArranged(ints, 0, ints.length - 1);
-//            allArranged1(ints, ints.length);
+//            allArranged(ints, 0, ints.length - 1);
+            allArranged1(ints, ints.length);
 //            allArranged2(ints, 0, ints.length);
             System.out.println("总共" + factorial(n) + "次");
         }
