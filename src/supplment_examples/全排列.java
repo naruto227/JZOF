@@ -15,15 +15,17 @@ public class 全排列 {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNextInt()) {
             int n = scanner.nextInt();
-            if (n < 1) {
+            /*if (n < 1) {
                 //异常代码
             }
             int[] ints = new int[n];
             for (int i = 0; i < n; i++) {
                 ints[i] = i + 1;
-            }
-//            allArranged(ints, 0, n - 1);
-            allArranged1(ints, n);
+            }*/
+            int[] ints = new int[]{1, 2, 2, 3, 3};
+            allArranged(ints, 0, ints.length - 1);
+//            allArranged1(ints, ints.length);
+//            allArranged2(ints, 0, ints.length);
             System.out.println("总共" + factorial(n) + "次");
         }
     }
@@ -117,8 +119,27 @@ public class 全排列 {
         }
     }
 
-//    去掉重复的全排列的递归实现
-    public static void allArranged2(){
+    //    去掉重复的全排列的递归实现
+    public static void allArranged2(int[] arr, int begin, int end) {
+        if (begin == end) {
+            print_arr(arr);
+        } else {
+            for (int i = begin; i < end; i++) {
+                if (isRepeat(arr, begin, i)) {
+                    swap(arr, i, begin);
+                    allArranged2(arr, begin + 1, end);
+                    swap(arr, i, begin);
+                }
+            }
+        }
+    }
 
+    private static boolean isRepeat(int[] arr, int begin, int end) {
+        for (int i = begin; i < end; i++) {
+            if (arr[i] == arr[end]) {
+                return false;
+            }
+        }
+        return true;
     }
 }
