@@ -52,6 +52,11 @@ public class SimpleSelectSort {
         return key;
     }
 
+    /**
+     * 改进后的算法实现为:我们考虑利用在每趟排序中进行正向和反向两遍冒泡的方法一次可以得到两个最终值(最大者和最小者) , 从而使排序趟数几乎减少了一半。
+     *
+     * @param arr
+     */
     private static void selectSortChange(int[] arr) {
         int i, j;
         int min, max;
