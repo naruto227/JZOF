@@ -55,9 +55,10 @@ public class SimpleSelectSort {
     private static void selectSortChange(int[] arr) {
         int i, j;
         int min, max;
+        // 做不超过arr.length / 2趟选择排序
         for (i = 0; i < arr.length / 2; i++) {
             min = i;
-            max = i;
+            max = i;//分别记录最大和最小关键字记录位置
             for (j = i + 1; j < arr.length - i; j++) {
                 if (arr[j] < arr[min]) {
                     min = j;
@@ -67,10 +68,11 @@ public class SimpleSelectSort {
                     max = j;
                 }
             }
-            if(i == max){//
+            //分情况讨论以提高效率
+            if (i == max) {//
                 swap(arr, arr.length - i - 1, max);
                 swap(arr, i, min);
-            }else {
+            } else {
                 swap(arr, i, min);
                 swap(arr, arr.length - i - 1, max);
             }
