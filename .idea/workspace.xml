@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4abddd1-c685-4698-b902-a464ffd9c168" name="Default" comment="inset sort">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sort/SimpleSelectSort.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/supplment_examples/Ymh.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sort/SimpleSelectSort.java" afterPath="$PROJECT_DIR$/src/sort/SimpleSelectSort.java" />
     </list>
     <ignored path="JZOF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +71,8 @@
       <file leaf-file-name="SimpleSelectSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sort/SimpleSelectSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="236">
+              <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -239,7 +239,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="524" />
+    <option name="x" value="649" />
     <option name="y" value="30" />
     <option name="width" value="1717" />
     <option name="height" value="1170" />
@@ -981,14 +981,7 @@
       <workItem from="1484187137763" duration="4738000" />
       <workItem from="1484321815958" duration="60000" />
       <workItem from="1484364045976" duration="3401000" />
-      <workItem from="1484398887615" duration="3822000" />
-    </task>
-    <task id="LOCAL-00058" summary="len">
-      <created>1483025876104</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1483025876104</updated>
+      <workItem from="1484398887615" duration="3949000" />
     </task>
     <task id="LOCAL-00059" summary="create arr_b">
       <created>1483026136761</created>
@@ -1326,11 +1319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484401572522</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="simple select sort">
+      <created>1484402730697</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1484402730697</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210260000" />
+    <option name="totallyTimeSpent" value="210387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1342,7 +1342,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="524" y="30" width="1717" height="1170" extended-state="0" />
+    <frame x="649" y="30" width="1717" height="1170" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1410,7 +1410,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
-    <MESSAGE value="arr_b" />
     <MESSAGE value="len" />
     <MESSAGE value="create arr_b" />
     <MESSAGE value="打印" />
@@ -1435,7 +1434,8 @@
     <MESSAGE value="insert sort" />
     <MESSAGE value="inset sort" />
     <MESSAGE value="shell sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="shell sort" />
+    <MESSAGE value="simple select sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple select sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1870,8 +1870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/SimpleSelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        <state relative-caret-position="236">
+          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

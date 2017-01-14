@@ -18,11 +18,16 @@ public class SimpleSelectSort {
         selectSort(ints);
     }
 
-    private static void selectSort(int[] arr){
+    /**
+     * 选择排序
+     *
+     * @param arr
+     */
+    private static void selectSort(int[] arr) {
         int key, temp;
         for (int i = 0; i < arr.length; i++) {
-            key = selectMinKey(arr, i);
-            if(key != i){
+            key = selectMinKey(arr, i);//选择最小的元素
+            if (key != i) {//最小元素与第i位置元素互换
                 temp = arr[i];
                 arr[i] = arr[key];
                 arr[key] = temp;
@@ -31,10 +36,17 @@ public class SimpleSelectSort {
         }
     }
 
-    private static int selectMinKey(int[] arr, int j){
+    /**
+     * 数组的最小值
+     *
+     * @param arr
+     * @param j
+     * @return 数组的键值
+     */
+    private static int selectMinKey(int[] arr, int j) {
         int key = j;
         for (int i = j + 1; i < arr.length; i++) {
-            if(arr[i] < arr[key]){//
+            if (arr[i] < arr[key]) {//
                 key = i;
             }
         }
