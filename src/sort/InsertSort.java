@@ -18,19 +18,19 @@ public class InsertSort {
         insertSort(ints);
     }
 
-    private static void insertSort(int[] arr){
+    private static void insertSort(int[] arr) {
         for (int i = 1; i < arr.length; i++) {
-            if(arr[i] < arr[i-1]){
+            if (arr[i] < arr[i - 1]) {//若第i个元素大于i-1元素，直接插入。小于的话，移动有序表后插入
                 int j = i - 1;
-                int temp = arr[i];//
+                int temp = arr[i];//复制为哨兵，即存储待排序元素
                 arr[i] = arr[j];
-                while (temp < arr[j] && j >= 0){
-                    arr[j+1] = arr[j];
-                    j--;
+                while (temp < arr[j] && j >= 0) {
+                    arr[j + 1] = arr[j];
+                    j--;//元素后移
                 }
-                arr[j+1] = temp;
+                arr[j + 1] = temp;//插入到正确位置
             }
-            print_arr(arr);
+            print_arr(arr);//打印每趟排序的结果
         }
     }
 }
