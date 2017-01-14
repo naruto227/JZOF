@@ -15,7 +15,8 @@ public class SimpleSelectSort {
         int[] ints = array.initialization(10);
         System.out.printf("the original array: ");
         print_arr(ints);
-        selectSort(ints);
+//        selectSort(ints);
+        selectSortChange(ints);
     }
 
     /**
@@ -24,13 +25,11 @@ public class SimpleSelectSort {
      * @param arr
      */
     private static void selectSort(int[] arr) {
-        int key, temp;
+        int key;
         for (int i = 0; i < arr.length; i++) {
             key = selectMinKey(arr, i);//选择最小的元素
             if (key != i) {//最小元素与第i位置元素互换
-                temp = arr[i];
-                arr[i] = arr[key];
-                arr[key] = temp;
+                swap(arr, i, key);
             }
             print_arr(arr);
         }
@@ -51,5 +50,38 @@ public class SimpleSelectSort {
             }
         }
         return key;
+    }
+
+    private static void selectSortChange(int[] arr) {
+        int i, j;
+        int min, max;
+        for (i = 0; i < arr.length / 2; i++) {
+            min = i;
+            max = i;
+            for (j = i + 1; j < arr.length - i; j++) {
+                if (arr[j] < arr[min]) {
+                    min = j;
+                    continue;
+                }
+                if (arr[j] > arr[max]) {
+                    max = j;
+                }
+            }
+            if(i == max){//
+                swap(arr, arr.length - i - 1, max);
+                swap(arr, i, min);
+            }else {
+                swap(arr, i, min);
+                swap(arr, arr.length - i - 1, max);
+            }
+            print_arr(arr);
+        }
+    }
+
+    private static void swap(int[] arr, int i, int j) {
+        int temp;
+        temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 }

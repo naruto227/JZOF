@@ -39,7 +39,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1386">
               <caret line="81" column="19" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,8 +73,8 @@
       <file leaf-file-name="SimpleSelectSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sort/SimpleSelectSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+            <state relative-caret-position="94">
+              <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -239,10 +241,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="649" />
-    <option name="y" value="30" />
+    <option name="x" value="303" />
+    <option name="y" value="150" />
     <option name="width" value="1717" />
-    <option name="height" value="1170" />
+    <option name="height" value="1173" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -981,14 +983,7 @@
       <workItem from="1484187137763" duration="4738000" />
       <workItem from="1484321815958" duration="60000" />
       <workItem from="1484364045976" duration="3401000" />
-      <workItem from="1484398887615" duration="3949000" />
-    </task>
-    <task id="LOCAL-00059" summary="create arr_b">
-      <created>1483026136761</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1483026136761</updated>
+      <workItem from="1484398887615" duration="7103000" />
     </task>
     <task id="LOCAL-00060" summary="打印">
       <created>1483026482845</created>
@@ -1326,11 +1321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484402730697</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="simple select sort">
+      <created>1484402863712</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1484402863712</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210387000" />
+    <option name="totallyTimeSpent" value="213541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1342,7 +1344,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="649" y="30" width="1717" height="1170" extended-state="0" />
+    <frame x="303" y="150" width="1717" height="1173" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1354,7 +1356,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5121029" sideWeight="0.5030257" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36573312" sideWeight="0.5030257" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5053346" sideWeight="0.49596775" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45551258" sideWeight="0.49596775" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5386847" sideWeight="0.4969743" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29303676" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
@@ -1465,12 +1467,13 @@
           <option name="timeStamp" value="121" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="127" />
+      <option name="time" value="129" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="list.size()" language="JAVA" />
         <watch expression="(multi + &quot; &quot;).length()" />
+        <watch expression="arr.length - i - 1" />
       </configuration>
     </watches-manager>
   </component>
@@ -1820,7 +1823,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="81" column="19" lean-forward="false" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1870,8 +1875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/SimpleSelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="28" column="48" lean-forward="true" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+        <state relative-caret-position="94">
+          <caret line="65" column="40" lean-forward="true" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
