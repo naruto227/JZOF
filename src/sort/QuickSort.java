@@ -14,6 +14,7 @@ public class QuickSort {
         int[] ints = array.initialization(10);
         System.out.printf("the original array: ");
         print_arr(ints);
+        quickSort(ints, 0, ints.length - 1);
     }
 
     private static int partition(int[] arr, int low, int high) {
@@ -30,5 +31,13 @@ public class QuickSort {
         }
         print_arr(arr);
         return low;
+    }
+
+    private static void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            int index = partition(arr, low, high);
+            quickSort(arr, low, index - 1);
+            quickSort(arr, index + 1, high);
+        }
     }
 }
