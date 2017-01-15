@@ -19,14 +19,16 @@ public class QuickSort {
     private static int partition(int[] arr, int low, int high) {
         int temp = arr[low];
         while (low < high) {
-            while (low< high && arr[low]<= arr[high]){
+            while (low < high && temp <= arr[high]) {
                 --high;
             }
-            swap(arr,low,high);
-            while (low<high && arr[low]>=arr[high]){
+            swap(arr, low, high);
+            while (low < high && arr[low] <= temp) {
                 ++low;
             }
-
+            swap(arr, low, high);
         }
+        print_arr(arr);
+        return low;
     }
 }
