@@ -18,7 +18,8 @@ public class QuickSort {
         int[] ints = array.initialization(10);
         System.out.printf("the original array: ");
         print_arr(ints);
-        quickSort(ints, 0, ints.length - 1);
+//        quickSort(ints, 0, ints.length - 1);
+        sortChange(ints, 0, ints.length - 1, 8);
     }
 
     private static int partition(int[] arr, int low, int high) {
@@ -42,6 +43,32 @@ public class QuickSort {
             int index = partition(arr, low, high);//将表一分为二
             quickSort(arr, low, index - 1);//递归对低子表递归排序
             quickSort(arr, index + 1, high);//递归对高子表递归排序
+        }
+    }
+
+    private static void quickSortImprove(int[] arr, int low, int high, int k) {
+        if (high - low > k) {
+            int index = partition(arr, low, high);//将表一分为二
+            quickSortImprove(arr, low, index - 1, k);//递归对低子表递归排序
+            quickSortImprove(arr, index + 1, high, k);//递归对高子表递归排序
+        }
+    }
+
+    private static void sortChange(int[] arr, int low, int high, int k) {
+        quickSortImprove(arr, low, high, k);
+        System.out.println("开始插入排序");
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] < arr[i - 1]) {
+                int temp = arr[i];
+                int j = i - 1;
+                arr[i] = arr[j];
+                while (j >= 0 && arr[j] > temp) {
+                    arr[j + 1] = arr[j];
+                    j--;
+                }
+                arr[j + 1] = temp;
+            }
+            print_arr(arr);
         }
     }
 }
