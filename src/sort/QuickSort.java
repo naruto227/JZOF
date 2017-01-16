@@ -46,6 +46,14 @@ public class QuickSort {
         }
     }
 
+    /**
+     * 在本改进算法中,只对长度大于k的子序列递归调用快速排序,让原序列基本有序，然后再对整个基本有序序列用插入排序算法排序。
+     * 实践证明，改进后的算法时间复杂度有所降低，且当k取值为 8 左右时,改进算法的性能最佳。
+     * @param arr
+     * @param low
+     * @param high
+     * @param k
+     */
     private static void quickSortImprove(int[] arr, int low, int high, int k) {
         if (high - low > k) {
             int index = partition(arr, low, high);//将表一分为二
@@ -55,8 +63,9 @@ public class QuickSort {
     }
 
     private static void sortChange(int[] arr, int low, int high, int k) {
-        quickSortImprove(arr, low, high, k);
+        quickSortImprove(arr, low, high, k);//先调用改进算法Qsort使之基本有序
         System.out.println("开始插入排序");
+        //再用插入排序对基本有序序列排序
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] < arr[i - 1]) {
                 int temp = arr[i];
