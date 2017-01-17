@@ -33,7 +33,7 @@ public class 螺旋数组 {
         }
     }
 
-    public static void createArr(int n, int m) {
+    private static void createArr(int n, int m) {
         int[][] ints = new int[n][m];
         int temp = n * m;
         int value = 1;//初始值
@@ -144,7 +144,7 @@ public class 螺旋数组 {
                     col++; //移动到后一行
                     if (col >= m) { //超过边界
                         col--; //后退
-                        dire = DOWN;
+                        dire = DOWN;//该边界点上改变方向
                         continue; //跳过该次循环
                     } else if (data[row][col] != 0) {//已赋值
                         col--; //后退

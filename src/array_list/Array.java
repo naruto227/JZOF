@@ -20,11 +20,23 @@ public class Array {
 //        System.out.println();
         return ints;
     }
-//    生成[0,100]长度为n的数组
-    public int[] initialization(int n){
+
+    //    生成[0,100]长度为n的数组
+    public int[] initialization(int n) {
         int[] ints = new int[n];
         for (int i = 0; i < n; i++) {
-            ints[i] = (int) (Math.random()*90) + 10;
+            ints[i] = (int) (Math.random() * 90) + 10;
+        }
+        return ints;
+    }
+
+    //    生成一个二维数组
+    public int[][] createTwoDimenArr(int n, int m) {
+        int[][] ints = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                ints[i][j] = (int) (Math.random()*5);
+            }
         }
         return ints;
     }
@@ -35,10 +47,10 @@ public class Array {
         int[] ints = new int[3];
         for (int i = 1; i < arr.length; i++) {
             sum += arr[i];
-            if(max < arr[i]){
+            if (max < arr[i]) {
                 max = arr[i];
             }
-            if(min > arr[i]){
+            if (min > arr[i]) {
                 min = arr[i];
             }
         }

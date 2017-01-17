@@ -34,9 +34,6 @@ class Repeat {
         int len = arr.length;
         int len1 = len - 1;
         for (int i = 0; i < len1; i++) {
-            /*if(flag){
-                break;
-            }*/
             for (int j = i + 1; j < len; j++) {
                 if (arr[i] == arr[j]) {
                     System.out.println("第" + i + "个元素和第" + j + "个元素重复,分别为：" + arr[i] + " " + arr[j]);
