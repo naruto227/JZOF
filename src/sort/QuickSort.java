@@ -19,7 +19,7 @@ public class QuickSort {
         System.out.printf("the original array: ");
         print_arr(ints);
 //        quickSort(ints, 0, ints.length - 1);
-        sortChange(ints, 0, ints.length - 1, 8);
+        sortChange(ints, 0, ints.length - 1, 8);//快排序与插入排序相结合
     }
 
     private static int partition(int[] arr, int low, int high) {
