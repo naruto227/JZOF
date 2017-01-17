@@ -19,8 +19,7 @@ public class 猴子吃桃 {
             System.out.println("一共摘了" + sum(a, b, c, d) + "个桃子");
         }
     }
-
-    public static int sum(int a, int b, int c, int d) {
+    private static int sum(int a, int b, int c, int d) {
         int temp = d;
         int i = c - 1;
         for (; i > 0; i--) {
