@@ -3,6 +3,7 @@ package supplment_examples;
 /**
  * ABCD*D=DCBA,要求A,B,C,D为1-9之间的数,且D不能为1
  * Created by hzq on 17-1-12.
+ * so easy,if it has a quicker method
  */
 public class ABCD {
     public static void main(String[] args) {
