@@ -25,6 +25,7 @@ public class HeapSort {
 
     /**
      * 堆排序算法
+     *
      * @param arr
      */
     private static void HeapSort(int[] arr) {
@@ -46,20 +47,20 @@ public class HeapSort {
 
     private static void HeapAdjust(int[] arr, int parent, int length) {
         int temp = arr[parent];
-        int child = 2 * parent + 1;
+        int child = 2 * parent + 1;//左孩子结点的位置。(i+1 为当前调整结点的右孩子结点的位置)
         while (child < length) {
-            if (child + 1 < length && arr[child] < arr[child + 1]) {
+            if (child + 1 < length && arr[child] < arr[child + 1]) {// 如果右孩子大于左孩子(找到比当前待调整结点大的孩子结点)
                 ++child;
             }
 
-            if (arr[parent] < arr[child]) {
-                arr[parent] = arr[child];
-                parent = child;
+            if (arr[parent] < arr[child]) {// 如果较大的子结点大于父结点
+                arr[parent] = arr[child];// 那么把较大的子结点往上移动，替换它的父结点
+                parent = child;// 重新设置parent ,即待调整的下一个结点的位置
                 child = 2 * parent + 1;
-            } else {
+            } else {// 如果当前待调整结点大于它的左右孩子，则不需要调整，直接退出
                 break;
             }
-            arr[parent] = temp;
+            arr[parent] = temp;//当前待调整的结点放到比其大的孩子结点位置上
         }
         print_arr(arr);
     }
