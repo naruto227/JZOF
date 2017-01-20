@@ -45,6 +45,14 @@ public class HeapSort {
         }
     }
 
+    /**
+     * 已知arr[parent…m]除了arr[parent] 外均满足堆的定义
+     * 调整arr[parent],使其成为大顶堆.即将对第parent个结点为根的子树筛选,
+     *
+     * @param arr    待调整的堆数组
+     * @param parent 是待调整的数组元素的位置
+     * @param length 数组的长度
+     */
     private static void HeapAdjust(int[] arr, int parent, int length) {
         int temp = arr[parent];
         int child = 2 * parent + 1;//左孩子结点的位置。(i+1 为当前调整结点的右孩子结点的位置)
