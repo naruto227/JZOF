@@ -23,13 +23,17 @@ public class HeapSort {
         }
     }
 
+    /**
+     * 堆排序算法
+     * @param arr
+     */
     private static void HeapSort(int[] arr) {
         //初始堆
         BuildHeap(arr);
-
+        //从最后一个元素开始对序列进行调整
         for (int i = arr.length - 1; i > 0; i--) {
-            swap(arr, 0, i);
-            HeapAdjust(arr, 0, i);
+            swap(arr, 0, i);//交换堆顶元素H[0]和堆中最后一个元素
+            HeapAdjust(arr, 0, i);//每次交换堆顶元素和堆中最后一个元素之后，都要对堆进行调整
         }
     }
 
