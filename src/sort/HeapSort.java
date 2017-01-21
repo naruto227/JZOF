@@ -57,15 +57,16 @@ public class HeapSort {
         int temp = arr[parent];
         int child = 2 * parent + 1;//左孩子结点的位置。(i+1 为当前调整结点的右孩子结点的位置)
         while (child < length) {
-            if (child + 1 < length && arr[child] < arr[child + 1]) {// 如果右孩子大于左孩子(找到比当前待调整结点大的孩子结点)
+            if (child + 1 < length && arr[child] < arr[child + 1]) {// 如果右孩子存在，且大于左孩子(找到比当前待调整结点大的孩子结点)
                 ++child;
-            }
+            }//child指向较大的孩子结点
 
             if (arr[parent] < arr[child]) {// 如果较大的子结点大于父结点
                 arr[parent] = arr[child];// 那么把较大的子结点往上移动，替换它的父结点
+                //如果当前child下面还有子结点，进入while
                 parent = child;// 重新设置parent ,即待调整的下一个结点的位置
                 child = 2 * parent + 1;
-            } else {// 如果当前待调整结点大于它的左右孩子，则不需要调整，直接退出
+            } else {// 如果当前待调整结点大于它的左右孩子，则不需要调整，直接退出(以当前parent为根结点的子树，已建成堆)
                 break;
             }
             arr[parent] = temp;//当前待调整的结点放到比其大的孩子结点位置上
