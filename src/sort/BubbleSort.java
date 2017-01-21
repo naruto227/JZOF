@@ -6,7 +6,7 @@ import java.util.Scanner;
 //引入类的方法
 import static array_list.输出数列.print_arr;
 
-/**
+/**hehe
  * Created by Michael Allan on 2016/12/30.
  */
 public class BubbleSort {
