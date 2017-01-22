@@ -2,7 +2,6 @@ package sort;
 
 import array_list.Array;
 
-import java.lang.annotation.ElementType;
 import java.util.Scanner;
 
 import static array_list.输出数列.print_arr;
@@ -22,7 +21,10 @@ public class MergeSort {
         }
     }
 
-    private static void MergeSort(){
+    private static void MergeSort(int[] arrA, int[] arrB, int length){
+        int len = 1;
+        int[] ints = new int[length];
+        ints = arrA;
 
     }
 }
