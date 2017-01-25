@@ -21,7 +21,6 @@ public class MergeSort {
         }
     }
 
-    //归并
     private static void MergeSort(int[] arrA, int[] arrB, int length) {
         int len = 1;
         int[] ints = new int[length];
