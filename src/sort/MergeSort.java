@@ -22,7 +22,7 @@ public class MergeSort {
     }
 
     private static void MergeSort(int[] arrA, int[] arrB, int length) {
-        int len = 1;
+//        int len = 1;
         int[] ints = new int[length];
         ints = arrA;
 
